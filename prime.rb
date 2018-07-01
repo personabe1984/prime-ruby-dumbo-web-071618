@@ -5,7 +5,10 @@ def prime?(num)
     return prime_check
   else
   for counter in 2..num-1 do 
-    num % counter != 0
+    if num % counter == 0
+      return prime_check
+    else
+      
     
 end
 

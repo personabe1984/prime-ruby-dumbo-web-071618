@@ -1,13 +1,11 @@
 # Add  code here!
 def prime?(num)
-  number_check = num / 2
-  
   if num <= 0 || num == 1
     return false
   elsif num == 2
     return true
   else
-    for counter in 2..number_check do 
+    for counter in 2..num-1 do 
       if num % counter == 0
         
       else
@@ -15,7 +13,6 @@ def prime?(num)
       end
     end
   end 
-  return prime_check
 end
 
 puts prime?(105557)

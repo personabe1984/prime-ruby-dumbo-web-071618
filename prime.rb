@@ -5,3 +5,5 @@ def prime?(num)
   else
     
 end
+
+puts prime?(105557)

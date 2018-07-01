@@ -1,7 +1,8 @@
 # Add  code here!
 def prime?(num)
+  prime_check = false
   if num <= 0 || num == 1
-    return false
+    return prime_check
   else
   for counter in 2..num-1 do 
     
